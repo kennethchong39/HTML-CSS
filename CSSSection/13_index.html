@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test File</title>
+    <style>
+        h1 {
+            /* Difference between display and visibility is visibility will still take the space */
+            /* display: none; */
+            /* visibility: hidden; */
+
+            /* important flag take precedence than others */
+            color: blue !important;
+        }
+
+        /* Class has more precedence than selecting element */
+        .hello {
+            color: red;
+            /* margin can have negative value */
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="hello">Hello World</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo incidunt, veniam itaque iste adipisci autem quam error quisquam temporibus repellendus.</p>
+</body>
+</html>
