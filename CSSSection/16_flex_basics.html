@@ -16,6 +16,7 @@
         .flex-container {
             display: flex;
             /* flex-direction: row-reverse; */
+            /* Benefit for item to go next row if the screen is smaller */
             /* flex-wrap: wrap; */
 
         }
@@ -28,18 +29,22 @@
             text-align: center;
             border-radius: 10px;
             width: 200px;
-            flex: 1 0 200px; 
+            /* Can write flex (grow, shrink, basis) */
+            flex: 1 0 200px;
         }
 
-        .item-3 {
+        /* .item-3 {
             flex: 2;
-        }
+        } */
 
         /* .item-1 {
+             No shrink
             flex-shrink: 0;
         }
         .item-2 {
+            Fill up the remanining space
             flex-grow: 1; 
+            Set width to show correct size when it is reduce
             flex-basis: 0;
         }
         .item-3 {
