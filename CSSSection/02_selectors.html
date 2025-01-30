@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Selectors</title>
     <style>
-        /* Element Selectors */
-        body {
-            background-color: #333;
-        }
-        /* . is for class */
-        .primary-heading {
-            color: green;
-        }
+      /* Element Selectors */
+      body {
+        background-color: #333;
+      }
+      /* . is for class */
+      .primary-heading {
+        color: green;
+      }
 
-        /* # is for id */
-        #welcome {
-            background-color: #f4f4f4
-        }
+      /* # is for id */
+      #welcome {
+        background-color: #f4f4f4;
+      }
 
-        /* Multiple Selectors */
-        #welcome, #about {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin-bottom: 5px;
-        }
-        
-        /* Nested Selectors */ 
-        #welcome p {
-            font-size: 20px;
-        }
+      /* Multiple Selectors */
+      #welcome,
+      #about {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 5px;
+      }
 
-        #about {
-            color: white;
-        }
+      /* Nested Selectors */
+      #welcome p {
+        font-size: 20px;
+      }
 
+      #about {
+        color: white;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="welcome">
-        <h2 class="primary-heading">Welcome</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nostrum quibusdam voluptatibus consectetur accusantium possimus, ex aperiam necessitatibus quas obcaecati?</p>
+      <h2 class="primary-heading">Welcome</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nostrum
+        quibusdam voluptatibus consectetur accusantium possimus, ex aperiam
+        necessitatibus quas obcaecati?
+      </p>
     </div>
     <div id="about">
-        <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia porro quos repudiandae possimus tempora. Soluta quae amet accusamus quibusdam vitae.</p>
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia porro
+        quos repudiandae possimus tempora. Soluta quae amet accusamus quibusdam
+        vitae.
+      </p>
     </div>
-</body>
+  </body>
 </html>
